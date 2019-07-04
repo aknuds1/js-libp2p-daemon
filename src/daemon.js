@@ -4,7 +4,7 @@
 
 const net = require('net')
 const Libp2p = require('./libp2p')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const PeerId = require('@arve.knudsen/peer-id')
 const ma = require('multiaddr')
 const CID = require('cids')
