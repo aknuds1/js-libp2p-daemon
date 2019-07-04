@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-daemon",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "libp2p-daemon JavaScript implementation",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "repository": {
