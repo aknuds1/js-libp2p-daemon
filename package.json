@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-daemon",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "libp2p-daemon JavaScript implementation",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "repository": {
@@ -57,7 +57,7 @@
     "libp2p-websockets": "~0.12.2",
     "multiaddr": "^6.1.0",
     "peer-book": "~0.9.1",
-    "@arve.knudsen/peer-id": "~0.12.3",
+    "@arve.knudsen/peer-id": "~0.12.4",
     "peer-info": "~0.15.1",
     "protons": "^1.0.1",
     "pull-mplex": "~0.1.2",
