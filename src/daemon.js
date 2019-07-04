@@ -5,7 +5,7 @@
 const net = require('net')
 const Libp2p = require('./libp2p')
 const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const ma = require('multiaddr')
 const CID = require('cids')
 const { encode, decode } = require('length-prefixed-stream')
