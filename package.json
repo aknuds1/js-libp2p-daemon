@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-daemon",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "libp2p-daemon JavaScript implementation",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "repository": {
@@ -42,7 +42,6 @@
     "chai-bytes": "~0.1.2",
     "dirty-chai": "^2.0.1",
     "mocha": "^6.1.2",
-    "multihashes": "~0.4.14",
     "sinon": "^7.3.1"
   },
   "dependencies": {
@@ -52,7 +51,7 @@
     "libp2p": "~0.25.2",
     "libp2p-bootstrap": "~0.9.7",
     "libp2p-kad-dht": "~0.15.2",
-    "libp2p-secio": "~0.11.1",
+    "@arve.knudsen/libp2p-secio": "~0.11.2",
     "libp2p-tcp": "~0.13.0",
     "libp2p-websockets": "~0.12.2",
     "multiaddr": "^6.1.0",
