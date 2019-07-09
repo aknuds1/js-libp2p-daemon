@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-daemon",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "libp2p-daemon JavaScript implementation",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "repository": {
@@ -51,7 +51,7 @@
     "libp2p": "~0.25.2",
     "libp2p-bootstrap": "~0.9.7",
     "libp2p-kad-dht": "~0.15.2",
-    "@arve.knudsen/libp2p-secio": "~0.11.2",
+    "@arve.knudsen/libp2p-secio": "~0.11.3",
     "libp2p-tcp": "~0.13.0",
     "libp2p-websockets": "~0.12.2",
     "multiaddr": "^6.1.0",
