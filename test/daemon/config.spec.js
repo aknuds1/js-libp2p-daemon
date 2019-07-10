@@ -65,7 +65,7 @@ describe('configuration', () => {
     expect(peerId.toB58String()).to.eql('QmPFdSzvgd1HbZSd6oX2N2vCSnhSEeocbQZsMB42UG8smE')
   })
 
-  it('should be able to load a Secp256k1 private key', async () => {
+  it.only('should be able to load a Secp256k1 private key', async () => {
     daemon = await createDaemon({
       quiet: false,
       q: false,
