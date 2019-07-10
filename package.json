@@ -46,8 +46,8 @@
   },
   "dependencies": {
     "@arve.knudsen/libp2p-secio": "~0.11.3",
-    "@arve.knudsen/peer-id": "~0.12.6",
-    "@arve.knudsen/peer-info": "~0.15.2",
+    "peer-id": "~0.12.2",
+    "peer-info": "~0.15.1",
     "cids": "~0.6.0",
     "debug": "^4.1.1",
     "length-prefixed-stream": "github:jacobheun/length-prefixed-stream#v2.0.0-rc.1",
