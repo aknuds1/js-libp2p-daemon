@@ -65,7 +65,7 @@ describe('configuration', () => {
     expect(peerId.toB58String()).to.eql('QmPFdSzvgd1HbZSd6oX2N2vCSnhSEeocbQZsMB42UG8smE')
   })
 
-  it.only('should be able to load a Secp256k1 private key', async () => {
+  it('should be able to load a Secp256k1 private key', async () => {
     daemon = await createDaemon({
       quiet: false,
       q: false,
@@ -83,6 +83,6 @@ describe('configuration', () => {
     await daemon.start()
 
     const peerId = daemon.libp2p.peerInfo.id
-    expect(peerId.toB58String()).to.eql('QmaXywut5mxJHYGE2qGht9e6BynFNKrWUwqMgJ6MVE9Q2J')
+    expect(peerId.toB58String()).to.eql('16Uiu2HAm7txvwZbeK5g3oB3DrRhnARTEjTNorVreWJomfHJHbEu2')
   })
 })
