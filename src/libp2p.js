@@ -1,16 +1,16 @@
 'use strict'
 
-const Libp2p = require('libp2p')
+const Libp2p = require('@arve.knudsen/libp2p')
 const TCP = require('libp2p-tcp')
 const WS = require('libp2p-websockets')
-const Bootstrap = require('libp2p-bootstrap')
+const Bootstrap = require('@arve.knudsen/libp2p-bootstrap')
 const MPLEX = require('pull-mplex')
 const SECIO = require('@arve.knudsen/libp2p-secio')
-const KadDHT = require('libp2p-kad-dht')
+const KadDHT = require('@arve.knudsen/libp2p-kad-dht')
 const pullToStream = require('pull-stream-to-stream')
-const PeerBook = require('peer-book')
-const PeerInfo = require('peer-info')
-const PeerID = require('peer-id')
+const PeerBook = require('@arve.knudsen/peer-book')
+const PeerInfo = require('@arve.knudsen/peer-info')
+const PeerID = require('@arve.knudsen/peer-id')
 const multiaddr = require('multiaddr')
 const fsPromises = require('fs').promises
 const util = require('util')
