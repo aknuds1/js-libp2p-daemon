@@ -10,6 +10,7 @@ const path = require('path')
 const ma = require('multiaddr')
 const { createDaemon } = require('../../src/daemon')
 const { isWindows } = require('../../src/util')
+const mh = require('multihashes')
 
 const daemonAddr = isWindows
   ? ma('/ip4/0.0.0.0/tcp/8080')
