@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@arve.knudsen/libp2p-secio": "~0.11.6",
-    "@arve.knudsen/peer-id": "~0.13.1",
+    "peer-id": "~0.12.3",
     "@arve.knudsen/peer-info": "~0.15.2",
     "cids": "~0.6.0",
     "debug": "^4.1.1",
