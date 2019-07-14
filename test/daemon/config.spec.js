@@ -10,6 +10,7 @@ const path = require('path')
 const ma = require('multiaddr')
 const { createDaemon } = require('../../src/daemon')
 const { isWindows } = require('../../src/util')
+const mh = require('multihashes')
 
 const daemonAddr = isWindows
   ? ma('/ip4/0.0.0.0/tcp/8080')
@@ -83,6 +84,6 @@ describe('configuration', () => {
     await daemon.start()
 
     const peerId = daemon.libp2p.peerInfo.id
-    expect(peerId.toB58String()).to.eql('QmaXywut5mxJHYGE2qGht9e6BynFNKrWUwqMgJ6MVE9Q2J')
+    expect(peerId.toB58String()).to.eql('16Uiu2HAm7txvwZbeK5g3oB3DrRhnARTEjTNorVreWJomfHJHbEu2')
   })
 })
